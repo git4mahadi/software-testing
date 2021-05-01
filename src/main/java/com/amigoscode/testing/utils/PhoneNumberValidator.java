@@ -1,7 +1,11 @@
 package com.amigoscode.testing.utils;
 
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
+
 import java.util.function.Predicate;
 
+@Service
 public class PhoneNumberValidator implements Predicate<String> {
 
     @Override
